@@ -1,0 +1,17 @@
+.Stage{
+    width: 25vw;
+    border: 6px solid blue;
+    display: grid;
+    grid-template-columns: repeat(12,1fr); /* 12 is the Stage width */
+    grid-template-rows: repeat(20, calc( 25vw / 12 ));/* 20 is the Stage height */
+    grid-gap: 1px;
+    transform-origin: 50% 0%;
+
+}
+@media (max-width:420px) {
+    .Stage{
+        width:100vw;
+        grid-template-rows: repeat(20,calc(100vw / 12));
+        
+    }
+}

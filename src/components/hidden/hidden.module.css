@@ -1,0 +1,15 @@
+.mobileOnly{
+    display:none;
+
+}
+.desktopOnly{
+    display: inline-block;
+}
+@media (max-width: 420px) {
+    .mobileOnly{
+        display: inline-block;
+    }
+    .desktopOnly{
+        display: none;
+    }
+}

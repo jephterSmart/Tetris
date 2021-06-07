@@ -1,0 +1,22 @@
+.Stage{
+    width: 270px;
+    border: 6px solid blue;
+    display: grid;
+    grid-template-columns: repeat(10,25px); /* 12 is the Stage width */
+    grid-template-rows: repeat(10, 25px);/* 20 is the Stage height */
+    grid-gap: 1px;
+    
+}
+@media (max-width: 420px) {
+    .Stage{
+        display:none;
+    }
+}
+@media (max-width:640px) {
+    .Stage{
+        width:120px;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(10,calc(120px / 12));
+        
+    }
+}

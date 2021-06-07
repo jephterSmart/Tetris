@@ -1,0 +1,29 @@
+.Backdrop{
+    background-color: rgba(50,50,50,0.5);
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+}
+.Modal{
+    position: relative;
+    top:15%;
+    left: calc(50% - 40vw);
+    background-color: blanchedalmond;
+    z-index: 1200;
+    border-radius: 12px;
+    padding: 20px;
+    width: 400px;
+}
+.hidden{
+    display: none;
+    
+}
+@media (max-width: 420px) {
+    .Modal{
+        width: 80%;
+        text-align: center;
+    }
+}

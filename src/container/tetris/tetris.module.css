@@ -1,0 +1,44 @@
+.Container{
+    width: 100vw;
+    height: 100vh;
+    background-color: khaki;
+    margin: 0;
+    padding: 50px;
+}
+.Wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.Right{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 250px;
+    position: relative;
+}
+.pauseBtn{
+    cursor:pointer;
+    color:white;
+    text-align: center;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin:24px;
+    padding: 8px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    
+}
+
+@media (max-width:420px) {
+    /* .Right{
+        display: none;
+    } */
+    .Container{
+        padding: 0;
+    }
+    
+}

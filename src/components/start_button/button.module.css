@@ -1,0 +1,11 @@
+.button{
+    background-color: rgb(48, 42, 42);
+    border-radius: 8px;
+    border: 6px solid gray;
+    text-align: center;
+    cursor: pointer;
+    font-size:large;
+    color:honeydew;
+    margin-top: 24px;
+    padding: 12px 24px;
+}
